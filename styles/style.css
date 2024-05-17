@@ -226,6 +226,7 @@ footer {
     font-weight: 600;
     font-size: 35px;
     margin-bottom: 50px;
+    margin-right: -10px;
 }
 #footer-details {
     color: #757575;
