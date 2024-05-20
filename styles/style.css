@@ -214,6 +214,14 @@ nav ul a {
 ------------------------------------*/
 
 
+
+
+
+
+/*------------------------------------
+        Start Footer section CSS 
+------------------------------------*/
+
 footer {
     display: flex;
     gap: 100px;
@@ -247,13 +255,96 @@ footer {
     padding: 70px 30px;
 }
 
-
-/*------------------------------------
-        Start Footer section CSS 
-------------------------------------*/
-
-
-
 /*------------------------------------
         End Footer section CSS 
 ------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------
+        Start Media Query CSS 
+        Responsive for Mobile)
+------------------------------------*/
+
+@media screen and (max-width: 720px){
+    /* header section */
+    header {
+        background-position: 2px 332px, bottom left;
+        background-size: 780px, 54.8px;
+        padding-bottom: 40px;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    #nav-title {
+        margin: 0;
+    }
+    nav ul {
+        padding-right: 66px;
+        margin: 15px 0 0 0;
+    }
+    #header-contents {
+        flex-direction: column-reverse;
+    }
+    #banner-details {
+        width: 500px;
+    }
+    #banner-details p {
+        margin: 30px 0 30px 0;
+    }
+    /* section-1 */
+    #section-1 {
+        padding: 30px 50px;
+        margin: 70px auto;
+    }
+    .section-title {
+        margin: 0 0 20px 0;
+    }
+    .section-description {
+        margin: 0 0 30px 0;
+    }
+    /* section-2 */
+    #section-2 {
+        margin: 30px auto 70px auto;
+    }
+    .skills-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-items: center;
+        gap: 15px;
+    }
+    .skills {
+        padding: 20px 25px;
+    }
+    .skill-description {
+        text-align: justify;
+    }
+    /* section-3 */
+    #resume-container {
+        gap: 15px;
+        margin: 10px;
+    }
+    .resume-details {
+        text-align: justify;
+    }
+    #resume-button {
+        margin: 20px 0 80px 0;
+    }
+    /* footer section */
+    footer {
+        gap: 50px;
+        padding: 30px 40px;
+        flex-direction: column;
+    }
+    .input-field {
+        width: 90%;
+    }
+    .input-field-textarea {
+        width: 90%;
+    }
+}
