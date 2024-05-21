@@ -370,9 +370,9 @@ footer {
         flex-direction: column;
     }
     .input-field {
-        width: 90%;
+        width: 80%;
     }
     .input-field-textarea {
-        width: 90%;
+        width: 80%;
     }
 }
