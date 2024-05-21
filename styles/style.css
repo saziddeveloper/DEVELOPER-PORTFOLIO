@@ -302,7 +302,7 @@ footer {
         margin-left: 80px;
     }
     #header-contents img {
-        width: 380px;
+        width: 370px;
     }
     #banner-details p {
         margin: 30px 0 30px 0;
@@ -323,10 +323,10 @@ footer {
         gap: 15px;
     }
     .info-title {
-        font-size: 14px;
+        font-size: 12px;
     }
     .info-details {
-        font-size: 16px;
+        font-size: 11px;
     }
     /* section-2 */
     #section-2 {
