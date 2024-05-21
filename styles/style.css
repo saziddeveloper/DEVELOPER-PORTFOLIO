@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6, p, a, span {
 .section-description {
     color: #757575;
     font-size: 18px;
-    margin: 10px 0;
+    margin: 10px 0 30px 0;
 }
 
 /*------------------------------------
@@ -283,6 +283,7 @@ footer {
     nav {
         flex-direction: column;
         align-items: center;
+        padding: 5px 185px;
     }
     #nav-title {
         margin: 0;
