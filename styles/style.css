@@ -276,7 +276,7 @@ footer {
 @media screen and (max-width: 720px){
     /* header section */
     header {
-        background-position: 2px 104px, bottom left;
+        background-position: 2px 93px, bottom left;
         background-size: 780px, 80.8px;
         padding-bottom: 40px;
     }
