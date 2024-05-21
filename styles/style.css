@@ -352,11 +352,11 @@ footer {
         gap: 15px;
         margin: 10px;
     }
-    .resume-topics {
-        font-size: 16px;
+    .resume-title {
+        font-size: 17px;
     }
     .resumeAddress-Year {
-        font-size: 16px;
+        font-size: 17px;
     }
     .resume-details {
         text-align: justify;
