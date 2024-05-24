@@ -418,7 +418,15 @@ footer {
     }
     /* footer section */
     footer {
-        gap: 50px
+        gap: 50px;
         padding: 30px 20px;
+    }
+    .input-field {
+        width: 80%;
+        padding: 8px 30px;
+    }
+    .input-field-textarea {
+        width: 80%;
+        padding: 40px 30px;
     }
 }
