@@ -398,6 +398,7 @@ footer {
       }
     #banner-details img {
         width: 400px;
+        position: relative;
         top: 51px;
         left: 20px;
 }
