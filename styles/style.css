@@ -393,14 +393,32 @@ footer {
 ------------------------------------*/
 
 @media screen and (min-width: 721px) and (max-width: 1080px) {
+    /* header section */
+    header {
+        background-size: 430px, 94px;
+    }
     #header-contents {
         margin: 0 100px;
-      }
+    }
     #header-contents img {
         width: 400px;
         position: relative;
         top: 51px;
         left: 20px;
-}
+    }
+    
+    /* section-2 */
+    #section-2 {
+        margin: 130px 10px;
+    }
+    
+    /* section-3 */
+    #section-3 {
+        margin: 0 10px;
+    }
+    /* footer section */
+    footer {
+        gap: 50px
+        padding: 30px 20px;
     }
 }
