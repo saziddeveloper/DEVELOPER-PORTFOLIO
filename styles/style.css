@@ -271,7 +271,7 @@ footer {
 
 /*------------------------------------
         Start Media Query CSS 
-        Responsive for Mobile)
+        Responsive for Mobile
 ------------------------------------*/
 
 @media screen and (max-width: 720px){
@@ -377,5 +377,29 @@ footer {
     .input-field-textarea {
         width: 80%;
         padding: 52px 30px;
+    }
+}
+
+
+
+
+
+
+
+
+/*------------------------------------
+        Start Media Query CSS 
+        Responsive for Tablet
+------------------------------------*/
+
+only screen and (min-width: 721px) and (max-width: 1080px) {
+    #header-contents {
+        margin: 0 100px;
+      }
+    #banner-details img {
+        width: 400px;
+        top: 51px;
+        left: 20px;
+}
     }
 }
