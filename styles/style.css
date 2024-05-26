@@ -395,7 +395,7 @@ footer {
 @media screen and (min-width: 721px) and (max-width: 1080px) {
     /* header section */
     header {
-        background-size: 430px, 94px;
+        background-size: 526px, 88px;
     }
     #header-contents {
         margin: 0 100px;
