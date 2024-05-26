@@ -403,7 +403,7 @@ footer {
     #header-contents img {
         width: 400px;
         position: relative;
-        top: 51px;
+        top: 27px;
         left: 20px;
     }
     
@@ -419,7 +419,7 @@ footer {
     /* footer section */
     footer {
         gap: 50px;
-        padding: 30px 20px;
+        padding: 130px 136px;
     }
     .input-field {
         width: 80%;
